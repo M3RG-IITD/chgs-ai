@@ -1,0 +1,22 @@
+Property & Hyperparamter,Bulk modulus,Density,Refractive index,Shear modulus,Young's modulus,Vickers hardness
+random_state,448,458,93,588,689,910
+booster,gbtree,gbtree,dart,dart,gbtree,gbtree
+lambda,0.423849574,0.002670722,0.000902499,0.007718425,0.208943311,1.89E-05
+learning_rate,0.515522083,0.582337231,0.989159136,0.722757434,0.426140191,0.552989774
+alpha,0.201272529,0.018306865,3.60E-07,0.012018818,3.26E-07,1.35E-08
+n_estimators,9,42,11,14,8,23
+subsample,0.828541327,0.963550695,0.98634888,0.738057485,0.777599637,0.989687613
+colsample_bytree,0.729517086,0.889675737,0.737018736,0.905738433,0.83288329,0.977520321
+reg_alpha,0.00960486,0.000389584,0.120108619,0.586318918,0.996553507,0.110531141
+reg_lambda,0.003893619,0.644032213,0.000849133,0.562214781,0.000370981,0.005297152
+max_depth,4,7,7,4,4,6
+eta,1.56E-05,4.65E-08,0.014897937,1.94E-05,4.79E-05,0.00064316
+gamma,0.068898018,7.75E-06,3.88E-05,1.11E-05,0.07386776,0.000177579
+grow_policy,depthwise,lossguide,lossguide,lossguide,depthwise,lossguide
+sample_type,..,..,weighted,uniform,..,..
+normalize_type,..,..,tree,forest,..,..
+rate_drop,..,..,5.61E-05,2.38E-08,..,..
+skip_drop,..,..,1.88E-05,8.04E-07,..,..
+,,,,,,
+,,,,,,
+,,,,,,
