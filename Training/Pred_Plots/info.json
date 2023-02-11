@@ -1,0 +1,189 @@
+{
+    "annealing": {
+            "short_name": "Annealing_Point",
+            "label_name": "annealing point (K) ",
+            "prop_scale": 1,
+            "margin": 50,
+            "inter": 200,
+            "den_scale_bool": false,
+            "den_scale": 1,
+            "ll_NS": 3,
+            "ll_NB": 3
+            },
+
+    "BulkModulus": {
+            "short_name": "Bulk_modulus",
+            "label_name": "bulk modulus (GPa) ",
+            "prop_scale": 1,
+            "margin": 5,
+            "inter": 10,
+            "den_scale_bool": false,
+            "den_scale": 1,
+            "ll_NS": 4,
+            "ll_NB": 3
+            },
+
+    "Density": {
+            "short_name": "Density",
+            "label_name": "density (g/cm$^3$) ",
+            "prop_scale": 1,
+            "margin": 1,
+            "inter": 1,
+            "den_scale_bool": true,
+            "den_scale": 3,
+            "ll_NS": [0.25, 0],
+            "ll_NB": 3
+            },
+
+    "Hardness_misc": {
+            "short_name": "Hardness_misc",
+            "label_name": "Vickers hardness at any Temp. (GPa) ",
+            "prop_scale": 1,
+            "margin": 1,
+            "inter": 2,
+            "den_scale_bool": false,
+            "den_scale": 1,
+            "ll_NS": 3,
+            "ll_NB": 3
+            },
+    "Hardness_RT": {
+            "short_name": "Hardness_RT",
+            "label_name": "Vickers hardness (GPa) ",
+            "prop_scale": 1,
+            "margin": 1,
+            "inter": 2,
+            "den_scale_bool": false,
+            "den_scale": 1,
+            "ll_NS": 3,
+            "ll_NB": 3
+            },
+
+    "Refractive_misc": {
+            "short_name": "Refractive_index_misc",
+            "label_name": "refractive index at any Temp., $n_d$ ",
+            "prop_scale": 1,
+            "margin": 0.1,
+            "inter": 0.2,
+            "den_scale_bool": true,
+            "den_scale": 3,
+            "ll_NS": 3,
+            "ll_NB": 4
+            },
+     "Refractive_RT": {
+            "short_name": "Refractive_index_RT",
+            "label_name": "refractive index at Room Temp., $n_d$ ",
+            "prop_scale": 1,
+            "margin": 0.1,
+            "inter": 0.2,
+            "den_scale_bool": true,
+            "den_scale": 3,
+            "ll_NS": 3,
+            "ll_NB": 4
+            },
+    "ND": {
+            "short_name": "Refractive_index_RT",
+            "label_name": "refractive index, $n_d$ ",
+            "prop_scale": 1,
+            "margin": 0.1,
+            "inter": 0.2,
+            "den_scale_bool": true,
+            "den_scale": 3,
+            "ll_NS": 3,
+            "ll_NB": 4
+            },
+
+    "Shear_modulus": {
+            "short_name": "Shear_modulus",
+            "label_name": "shear modulus (GPa) ",
+            "prop_scale": 1,
+            "margin": 10,
+            "inter": 10,
+            "den_scale_bool": false,
+            "den_scale": 1,
+            "ll_NS": 3,
+            "ll_NB": 3
+            },
+
+    "softening": {
+            "short_name": "Softening_point",
+            "label_name": "softening point (K) ",
+            "prop_scale": 1,
+            "margin": 100,
+            "inter": 200,
+            "den_scale_bool": false,
+            "den_scale": 1,
+            "ll_NS": 3,
+            "ll_NB": 3
+            },
+
+    "TLiq": {
+            "short_name": "T_liquidus",
+            "label_name": "liquidus temperature (K) ",
+            "prop_scale": 1,
+            "margin": 200,
+            "inter": 500,
+            "den_scale_bool": true,
+            "den_scale": 3,
+            "ll_NS": 3,
+            "ll_NB": 3
+            },
+
+    "Littleton": {
+            "short_name": "T_Littleton",
+            "label_name": "Littleton point (K) ",
+            "prop_scale": 1,
+            "margin": 100,
+            "inter": 200,
+            "den_scale_bool": false,
+            "den_scale": 1,
+            "ll_NS": 3,
+            "ll_NB": 3
+            },
+
+    "TEC": {
+            "short_name": "TEC",
+            "label_name": "TEC, \u03B1  (ln[$10^{-7}$ $K^{-1}$]) ",
+            "prop_scale": 1,
+            "margin": 0.1,
+            "inter": 0.5,
+            "den_scale_bool": true,
+            "den_scale": 3,
+            "ll_NS": 4,
+            "ll_NB": 3
+            },
+    "TG": {
+            "short_name": "Tg",
+            "label_name": "$T_g$ (K) ",
+            "prop_scale": 1,
+            "margin": 50,
+            "inter": 200,
+            "den_scale_bool": false,
+            "den_scale": 1,
+            "ll_NS": 3,
+            "ll_NB": 4
+            },
+
+    "thermal_conductivity": {
+            "short_name": "Thermal_conductivity",
+            "label_name": "thermal conductivity (W/(m.K)) ",
+            "prop_scale": 1,
+            "margin": 0.2,
+            "inter": 0.5,
+            "den_scale_bool": false,
+            "den_scale": 1,
+            "ll_NS": 3,
+            "ll_NB": 3
+            },
+
+    "YM": {
+            "short_name": "YM",
+            "label_name": "Young's modulus (GPa) ",
+            "prop_scale": 1,
+            "margin": 10,
+            "inter": 40,
+            "den_scale_bool": false,
+            "den_scale": 1,
+            "ll_NS": 3,
+            "ll_NB": [0.25, 0]
+            }
+}
